@@ -1,0 +1,5 @@
+rule cat
+  command = cat $in > $out
+
+build usagi-dictionary-all.txt: cat drag/未分類.txt food/酢.txt food/野菜.txt tea/科学.txt tea/未分類.txt food/トマト.txt food/茸.txt nazo/謎.txt tea/地名.txt write/数学.txt food/貝.txt food/馬路村.txt programming/未分類.txt tea/茶樹品種.txt write/未分類.txt food/酒.txt food/未分類.txt tea/ルピシア.txt tea/茶人.txt write/矢印.txt
+
