@@ -24,6 +24,13 @@ $ /usr/lib/mozc/mozc_tool --mode=dictionary_tool
 ・・・(´・ω・`)知らんがな // i don't know.
 
 
+＊ファイルがたくさんあって面倒くさい場合
+
+build-ninja導入環境なら`ninja`とコマンドすればすべての辞書が結合された1つのファイル usagi-dictionary-all.txt を生成します。
+
+bulid-ninjaが何だか分からない場合も`cat */*.txt > all.txt`とかすれば良いでしょう。
+
+
 ＊にゅうしゅ // get
 
 https://github.com/usagi/usagi-dictionary
