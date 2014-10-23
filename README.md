@@ -1,6 +1,6 @@
-usagi-dictionary
+# usagi-dictionary
 
-＊これは、なんですか？ // what's this
+## これは、なんですか？ // what's this
 
 作者が実際に現在進行形でつこうてる辞書の一部です。 // a part of dictionary it's use author realy now.
 その名も usagi-dictionary 。 // it's named usagi-dictionary.
@@ -8,9 +8,9 @@ usagi-dictionary
 特徴としては、やたらと茶に関わる言葉や野菜の和名や中華料理っぽい言葉が節操無く詰まっている。 // the dictionary include many tea words, vegetable Japanese words and Chinese food words.
 
 
-＊つかいかた // how to use
+## つかいかた // how to use
 
-[mozc(Google日本語入力)の場合] // mozc (or Google Japanese Input Method) case
+### [mozc(Google日本語入力)の場合] // mozc (or Google Japanese Input Method) case
 
 辞書ツールでインポートする。 // import with dictionary tool
 
@@ -19,24 +19,21 @@ $ /usr/lib/mozc/mozc_tool --mode=dictionary_tool
 とかすると辞書ツールが出ます。
 
 
-[そのたの場合] // the other case
+### [そのたの場合] // the other case
 
 ・・・(´・ω・`)知らんがな // i don't know.
 
 
-＊ファイルがたくさんあって面倒くさい場合
+## ファイルがたくさんあって面倒くさい場合
 
-build-ninja導入環境なら`ninja`とコマンドすればすべての辞書が結合された1つのファイル usagi-dictionary-all.txt を生成します。
+`./build.sh` すると "usagi-dictionary-all.txt" が生成されます。
 
-bulid-ninjaが何だか分からない場合も`cat */*.txt > all.txt`とかすれば良いでしょう。
-
-
-＊にゅうしゅ // get
+## にゅうしゅ // get
 
 https://github.com/usagi/usagi-dictionary
 
 
-＊つくったひとの連絡先 // contact
+## つくったひとの連絡先 // contact
 
 Twitter: USAGI_WRP
 E-Mail: usagi@WonderRabbitProject.net
@@ -45,7 +42,7 @@ E-Mail: usagi@WonderRabbitProject.net
 でも、あれ追加してこれ追加してって要望はスルーしても気分を害さないでネ・ｗ・
 
 
-＊かいとかないとおこられるあれ // license
+## かいとかないとおこられるあれ // license
 
-CC-BY
-© Usagi Ito 2012
+- [MIT](LICENSE.md)
+
